@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<test-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <record>
+    <Value>1</Value>
+    <Result>false</Result>
+  </record>
+  <record>
+    <Value>2</Value>
+    <Result>true</Result>
+  </record>
+  <record>
+    <Value>3</Value>
+    <Result>false</Result>
+  </record>
+  <record>
+    <Value>4</Value>
+    <Result>true</Result>
+  </record>
+  <record>
+    <Value>5</Value>
+    <Result>false</Result>
+  </record>
+  <record>
+    <Value>6</Value>
+    <Result>true</Result>
+  </record>
+  <record>
+    <Value>7</Value>
+    <Result>false</Result>
+  </record>
+  <record>
+    <Value>8</Value>
+    <Result>true</Result>
+  </record>
+</test-data>
