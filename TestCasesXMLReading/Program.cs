@@ -18,8 +18,6 @@ namespace TestCasesXMLReading
     [TestFixture]
     class NumberTest
     {
-
-
         [Test, TestCaseSource("GetNumbersToCheck")]
         public void EvenOddNumberTest(int value, bool result)
         {
@@ -61,7 +59,6 @@ namespace TestCasesXMLReading
                                 result = reader.ReadElementContentAsBoolean();
                             }
 
-
                             if (value != null && result != null)
                             {
                                 yield return
@@ -77,6 +74,5 @@ namespace TestCasesXMLReading
                 }
             }
         }
-
     }
 }
